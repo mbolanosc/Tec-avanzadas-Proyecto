@@ -55,6 +55,19 @@ body {
 	border-radius: 0;
 	font-size: $font-size-btns;
 }
+.services, .portafolio{
+	background-color: $white;
+}
+.servicebx{
+  text-align: center;
+	margin-bottom:em(44px,$font-size-p);
+}
+.servicebx > h5{
+	font-weight: bold;
+}
+.servicebx > p{
+	color:$ligth-grey;
+}
 
 footer {
 	background-color: $dark-purple;
@@ -75,9 +88,6 @@ footer {
 	background-color: $footer-dark-footer;
 	text-align: center;
 	color: $white;
-}
-.footer-container{
-	
 }
 
 .btn-default {
