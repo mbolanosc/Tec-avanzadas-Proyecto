@@ -68,6 +68,20 @@ body {
 .servicebx > p{
 	color:$ligth-grey;
 }
+/*imgs portafolio*/
+.portafolio > .container{
+	margin-left:-15px;
+  width:100%;
+  height:100%;
+}
+.img-portafolio{
+	width: 400px;
+	height: 250px;
+}
+.img-last-portafolio{
+	height: 250px;
+	width: 316px;
+}
 
 footer {
 	background-color: $dark-purple;
