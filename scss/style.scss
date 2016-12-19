@@ -1,5 +1,9 @@
 @import 'variables','functions';
 
+.row {
+	margin-right: 0 !important;
+}
+
 body {
 	font-family: $main-font-family;
 }
@@ -55,34 +59,104 @@ body {
 	border-radius: 0;
 	font-size: $font-size-btns;
 }
-.services, .portafolio{
+
+.portafolio,
+.services {
 	background-color: $white;
 }
-.servicebx{
-  text-align: center;
-	margin-bottom:em(44px,$font-size-p);
-}
-.servicebx > h5{
-	font-weight: bold;
-}
-.servicebx > p{
-	color:$ligth-grey;
-}
-/*imgs portafolio*/
-.portafolio > .container{
-	margin-left:-15px;
-  width:100%;
-  height:100%;
-}
-.img-portafolio{
-	width: 400px;
-	height: 250px;
-}
-.img-last-portafolio{
-	height: 250px;
-	width: 316px;
+
+.servicebx {
+	text-align: center;
+	margin-bottom: em(44px,$font-size-p);
 }
 
+.servicebx > h5 {
+	font-weight: bold;
+}
+
+.servicebx > p {
+	color: $ligth-grey;
+}
+/*imgs portafolio*/
+.portafolio > .container {
+	top: 0;
+	max-width: 100%;
+	margin-left: -15px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: em(100px,$font-size-p);;
+
+}
+
+.box-portfolio {
+	margin-top: 1px;
+	float: left;
+}
+
+.img-portafolio {
+	width: 316px;
+	height: 259px;
+}
+/*team*/
+.img-team {
+	width: 270px;
+	height: 270px;
+}
+
+.sub-team > h4 {
+	color: $pastel-orange;
+}
+
+.sub-team > p {
+	font-size: 14px;
+	color: $xtreme-ligth-grey;
+}
+
+.social-med-team {
+	margin: 10px 0 60px;
+	border-color: $xtreme-ligth-grey;
+	color: $xtreme-ligth-grey;
+	background-color: transparent;
+	border-radius: 0;
+}
+/*banner*/
+.banner > .container {
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	padding-right: em(0px,$font-size-p);;
+}
+.img-banner{
+	width: 100%;
+}
+.banner-first-box{
+	padding: 0px 0px 0px 0px !important;
+}
+.banner-second-box{
+	background-color: $dark-borg;
+	height: 333px;
+}
+.banner-second-box > p{
+	color:$white;
+	font-size: 35px;
+}
+.banner-second-box > h5{
+	color:$white;
+}
+.text-contact > h2, p{
+	text-align: center;
+}
+.text-contact > button{
+	margin-left: em(209px,$font-size-p);;
+	border-radius: 0px;
+}
+.contact > .container{
+	margin-top: em(100px,$font-size-p);;
+	margin-bottom: em(100px,$font-size-p);;
+
+}
+
+/*footer*/
 footer {
 	background-color: $dark-purple;
 }
